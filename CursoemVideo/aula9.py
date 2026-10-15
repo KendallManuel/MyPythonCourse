@@ -1,0 +1,16 @@
+frase = "Curso em video Python"
+print(frase[:5])
+print(frase[2:])
+print(frase[7::2])
+print(frase[::3])
+print(frase.replace("Curso", " "))
+print(frase.count("P"))
+print(len(frase))
+print(frase.find("s"))
+print(frase.strip())
+print(frase.split())
+print("Curso" in frase)
+print(frase.lower().find("v"))
+
+separado= frase.split()
+print(separado[2][0])
